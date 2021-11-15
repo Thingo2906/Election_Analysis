@@ -1,1 +1,7 @@
 # Election_Analysis
+## Overview of Election Audit
+-  the purpose of this election audit analysis: it helps us to filter out important data of the number of votes for each county, which county has the largest number of votes, who is the winner.
+## Election-Audit Results: From the file election_analysis.txt, we get all these voting result:
+<img width="537" alt="12324325" src="https://user-images.githubusercontent.com/93515126/141732181-dfa0a68e-827f-46ac-a2bd-df54a45cf523.png">
+## Election-Audit Summary:
+- We can use this script for any election. Depending on the purpose and data of the election commission, we can filter the results of the elections by different levels.For example, the election commission could use a script to find out the number of votes cast by candidates for the House of Representatives and Senate for each term. this script can be modified to be used for this election by changing some code variable name to count the votes cast by the voters of each state and to find out which candidate has the highest number of votes. nother example would be to use this script to find out the number of votes in favor of a bill passed or not in parliament based on the number of votes cast by senators and congressmen. In this election, this script will be shortened because we only need to find out the total number of "pass" and "no pass" votes, if the number of pass votes is more then the law is passed and vice versa.
